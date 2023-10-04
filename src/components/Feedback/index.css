@@ -1,0 +1,95 @@
+/* Write your CSS code here. */
+
+.appContainer {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 150px;
+}
+
+.insideFeedbackContainer {
+  border-radius: 10px;
+  background-color: #ffffff;
+  width: 60%;
+  padding: 100x;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.headingContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.heading {
+  font-size: 25px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-right: 7px;
+  margin-left: 7px;
+  text-align: center;
+}
+
+.emojisList {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.emojiBtn {
+  border: none;
+  background-color: #ffffff;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.emoji {
+  width: 45px;
+  margin-bottom: 5px;
+}
+.emojiName {
+  font-size: 12px;
+  color: #1e293b;
+  font-family: 'Roboto';
+  margin-top: 5px;
+}
+
+.insideFeedbackThanksContainer {
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 100x;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.thankYouHeading {
+  font-size: 20px;
+  color: #0f172a;
+  font-weight: 600;
+}
+.loveEmoji {
+  width: 50px;
+  margin-top: 15px;
+}
+.description {
+  font-size: 15px;
+  color: #1e293b;
+  margin-right: 7px;
+  margin-left: 7px;
+  font-weight: 400;
+}
